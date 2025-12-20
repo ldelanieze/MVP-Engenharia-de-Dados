@@ -39,16 +39,21 @@ O problema central abordado neste MVP é a carência de uma análise comparativa
 Nesta seção, apresentamos as evidências das respostas às perguntas do MVP.
 
 ### 4.1 Disparidade Econômica (P1.2)
-![Disparidade de Valor](./evidencias/grafico_p1_2.png)
+![Disparidade de Valor](Evidencia%201.2.PNG)
 **Discussão Técnica:** A análise confirma a disparidade extrema entre a elite e o mercado global. A **Primera División Femenina** lidera com média de **€ 58.806**, enquanto a média das demais ligas cai para apenas **€ 1.596**. Essa diferença de **37 vezes** prova a concentração de capital nos polos de destaque.
 
 ### 4.2 Preferência de Pé Dominante (P2.1)
-![Lateralidade](./evidencias/grafico_p2_1.png)
+![Lateralidade](Evidencia%202.1.PNG)
 **Discussão Técnica:** O pé direito predomina, mas há maior presença de canhotas e ambidextras no ataque e meio-campo, onde a versatilidade motora favorece a criação de jogadas.
 
 ### 4.3 Longevidade Profissional (P4)
-![Mapa de Calor](./evidencias/grafico_p4.png)
+![Mapa de Calor](Evidencia%204.PNG)
 **Discussão Técnica:** O mapa de calor revela que a posição de Goleira (Goalkeeper) apresenta maior retenção em faixas etárias avançadas (31-35 e 35+), indicando maior longevidade física na função.
+
+### 4.4 Evidência de Execução do Pipeline
+![Execução do Pipeline](Evidencia%20Pipeline.PNG)
+
+**Discussão Técnica:** Esta evidência demonstra o sucesso da automação do pipeline ETL. O log confirma a extração dos dados brutos, o processamento das transformações na camada Silver e a persistência final dos dados modelados (Star Schema) na camada Gold. A presença dos arquivos `.csv` gerados no diretório de destino comprova que o pipeline é capaz de sustentar de forma autônoma o ciclo de vida dos dados, desde a ingestão até o armazenamento para análise.
 
 ---
 
